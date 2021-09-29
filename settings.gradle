@@ -1,0 +1,11 @@
+dependencyResolutionManagement {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = 'Problem-book'
+include 'Java-Problem', 'Python-Problem'
+
